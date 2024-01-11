@@ -16,11 +16,24 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+ 
+.header {
+    color: rgb(180, 170, 158);
+    background-color: rgb(17, 17, 17);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
   
+  ul {
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+  }
+  
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
     overflow: hidden;
     background: linear-gradient(to left, #000000, #141414, #1f1f1f, #535353);
 }
@@ -56,13 +69,12 @@ body {
     margin-left: 33.33%;
     padding: 50px;
     box-sizing: border-box;
-    color: #fff;
+    color: rgb(218, 211, 203);
 }
 
 .text {
     font-size: 40px;
     font-weight: bold;
-    margin-top: 40px;
     margin-left: 100px;
     font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
 
@@ -71,7 +83,6 @@ body {
 .text2 {
     font-size: 25px;
     font-weight: 300;
-    margin-top: 30px;
     margin-left: 100px;
     font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
 }
@@ -80,7 +91,7 @@ body {
     width: 100%;
     max-width: 400px;
     margin-left: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
     font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
 }
 
@@ -116,7 +127,6 @@ input:valid {
     border-color: rgb(89, 53, 92);
 }
 
-
 button {
     margin-top: 20px;
     width: 100%;
@@ -124,7 +134,7 @@ button {
     box-sizing: border-box;
     border: none;
     background-color: #4f3c50;
-    color: #fff;
+    color: rgb(180, 170, 158);
     cursor: pointer;
     border-radius: 8px;
     font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
@@ -135,7 +145,7 @@ button:hover {
     background-color: #342735;
 }
 
-p {
+.log {
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 50px;
 }

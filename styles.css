@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+a{
+    color: #6d6499;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none;
+    color: #564f7a; 
+} 
+a:active { 
+    text-decoration: none; 
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(to left, #000000, #141414, #1f1f1f, #535353);
+}
+
+.gradient-animation {
+    width: 33.33%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #292929, #3a3553, #514c6b);
+    background-size: 200% 200%;
+    animation: gradientAnimation 20s ease;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% { 
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.content-container {
+    width: 66.66%;
+    margin-left: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
+
+}
+
+.text2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    width: 48%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #181818;
+    background-color: rgba(169, 169, 169, 0.3);
+    border-radius: 8px;
+    color: #fff;
+    font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input:valid {
+    border-color: rgb(89, 53, 92);
+}
+
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4f3c50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family:Roboto Mono ,Segoe UI, Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #342735;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+}
